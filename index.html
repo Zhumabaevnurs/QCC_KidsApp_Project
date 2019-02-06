@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <title>Kids App</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <!--Logo for nav-->
+    <section id="pageA">
+    <div class="navbar bg-warning navbar-warning  navbar-expand-sm ">
+      <!-- create a space for the navbar-brand-->
+      <a class="navbar-brand" href="#"><img src="images/logo.png" style="width:40px;" alt="logo"></a>
+      <!-- div for navigation links-->
+      <div class="navbar-nav">
+      <a href="#" class="nav-item nav-link active"> Home </a>
+      <a href="#pageA" class="nav-item nav-link"> Learnig Sections </a>
+      <a href="#pageB" class="nav-item nav-link"> Mission </a>
+      <a href="#pageC" class="nav-item nav-link"> Contact & Support </a>
+    </div>
+    </div>
+    <!-- Cards -->
+    <div class="flip3D">
+      <div class="back">
+        <div><h5>The miracle of imagination, The marvels of earth, sea and sky, These wonders untold Are ours to behold In the funny world, The sunny world, The wonderful world of color.</h5></div>
+        <div class="button" style="margin:middle;"><a class='btn btn-primary' href="subpageColors/colorBlue.html" role="button" style="margin:middle;">Click Me, please!</a></div>
+      </div>
+      <div class="front"><img src="images/colors.jpg" style="width:350px; height:200px;"></div>
+    </div>
+    <div class="flip3D">
+      <div class="back">
+        <div><h5>Discover how the amazing human body works!</h5></div>
+        <div class="button"><a class='btn btn-primary' href="subpageBodyParts/bodyparts.html" role="button" style="margin:middle;">Click Me, please!</a></div>
+      </div>
+      <div class="front"><img src="images/bodyparts.jpg" style="width:350px; height:200px;"></div>
+    </div>
+    <div class="flip3D">
+      <div class="back">
+        <div><h5>Discover the amazing world of numbers and the real-world wonders they represent through creative, easy-to-understand infographics!</h5></div>
+        <div class="button" style="margin:middle;"><a class='btn btn-primary' href="subpageNumbers/numbers.html" role="button">Click Me, please!</a></div>
+      </div>
+      <div class="front"><img src="images/numbers.jpg" style="width:350px; height:200px;"></div>
+    </div>
+</section>
+
+
+    <!--Missions-->
+    <section id="pageB">
+    <header class="jumbotron bg-danger">
+        <div class="display-3 mb-4">Our Mission</div>
+        <p class="lead">Our Learning Kids Center is an early childhood education center that fosters learning, creativity, and individuality in children while serving as a teaching model. We embrace diversity, value our highly qualified staff, and cultivate partnerships among our families, staff, board of directors, and community. We support the University’s missions by providing educational experiences, research opportunities, and service to the community.</p>
+    </header>
+  </section>
+
+  <!--Form-->
+  <section id="pageC">
+    <div class="contact">
+  <h1>Contact Us</h1>
+  <form action="contact.php" method="post">
+  <label >Full Name: <input type="text" name="FullName" id="enter" placeholder="Enter Your Full Name"/> </label>
+      <br/>
+      <br/>
+    <label >Email:   <input type="text" name="email" id="email" placeholder="Enter email Address"/></label>
+      <br/>
+      <br/>
+    <label >Subject  <input type="text" name="subject" id="subject" placeholder="Enter The Subject"/></label>
+      <br/>
+      <br/>
+    <label >Message:  <input type="text" name="message" id="message" placeholder="Enter your message (Max. 200 words)" max="200"/></label>
+      <br/>
+      <button type="submit" name="x" id="order">Submit your form </button>
+    </form>
+  </div>
+  </section>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+    // //Scroll EVENT
+    // window.onscroll = function() {scrollFunction()};
+    //
+    // function scrollFunction() {
+    //     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    //         document.getElementById("event2").style.display = "block";
+    //     } else {
+    //         document.getElementById("event2").style.display = "none";
+    //     }
+    // }
+    //
+    // function topFunction() {
+    //     document.body.scrollTop = 0;
+    //     document.documentElement.scrollTop = 0;
+    // }
+    </script>
+  </body>
+</html>

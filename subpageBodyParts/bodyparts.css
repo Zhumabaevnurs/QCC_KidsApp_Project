@@ -1,0 +1,28 @@
+body {
+    background-image: url("..//images/bgground2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 110em;
+}
+#video{
+  margin-top: 1em;
+}
+.cartoon{
+  margin-top: 40em;
+  margin-left: 10em;
+}
+.button{
+  height: 4em;
+  width: 75%;
+  margin: auto;
+  margin-top: 12em;
+  border: solid green 1em;
+  text-align: center;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 5em 5em 5em;
+}
+.button:hover{
+  box-shadow: 1em 1em 0.2em gray;
+  background-color: lightblue;
+ color: white;
+}

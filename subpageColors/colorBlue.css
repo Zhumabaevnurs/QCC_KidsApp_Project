@@ -1,0 +1,93 @@
+body {
+    background-image: url("..//images/background5.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 110em;
+}
+.display{
+  perspective: 10em;
+  height: 7em;
+  text-align: center;
+}
+span{
+  display:inline-block;
+  color: blue;
+  font-size: 9em;
+  font-family: Castellar;
+  font-weight: border;
+  align: center;
+  margin-top:1em;
+}
+span:nth-child(1)
+{
+  animation: text 1s
+}
+span:nth-child(2)
+{
+  animation: text 2s
+}
+span:nth-child(3)
+{
+  animation: text 1s
+}
+span:nth-child(4)
+{
+  animation: text 2s
+}
+@keyframes text {
+  from{transform: skewX(90deg);}
+  to{transform: skewX(0deg);}
+}
+.image_container{
+  margin: auto;
+  margin-top: 20em;
+  width: 40%;
+  height: auto;
+  animation: zoomAuto 3s;
+}
+img{
+  width:100%;
+  height:100%;
+}
+.image_container2{
+  margin: auto;
+  margin-top: 12em;
+  width: 40%;
+  height: auto;
+  animation: zoomAuto 4s;
+}
+img{
+  width:100%;
+  height:100%;
+}
+@keyframes zoomAuto {
+  0%{transform: scale(0);}
+  30%{transform: scale(1);}
+  60%{transform: scale(0);}
+  100%{transform: scale(1);}
+}
+.buttons{
+  margin: auto;
+  width: 70%;
+  height: 150px;
+  margin-top: 12em;
+
+
+}
+#previous , #next{
+  width: 20%;
+  height: 90%;
+  box-sizing: border-box;
+  margin-left: 1em;
+  float: left;
+}
+#previous:hover, #next:hover{
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+#playbutton{
+  width: 50%;
+  height: 90%;
+  box-sizing: border-box;
+  margin-left: 2.2em;
+  float: left;
+}

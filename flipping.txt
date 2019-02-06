@@ -1,0 +1,34 @@
+<div class="card">
+      <div class="front"><img src="images/bodyparts.jpg" style="width:150px; height:250px;"></div>
+      <div class="back">
+        <div class="details">
+          <h2>Nursultan Zhumabaev</br><span>Senior Designer</span></h2>
+          <div class="button"><a class='btn btn-primary' href="https://www.youtube.com/watch?v=aTK3vCzjzCo" role="button">Click Me, please!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="card2">
+      <div class="front2"><img src="images/bodyparts.jpg" style="width:150px; height:250px;"></div>
+      <div class="back2">
+        <div class="details2">
+          <h2>Nursultan Zhumabaev</br><span>Senior Designer</span></h2>
+          <div class="button2"><a class='btn btn-primary' href="https://www.youtube.com/watch?v=aTK3vCzjzCo" role="button">Click Me, please!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="card3">
+      <div class="front3"><img src="images/bodyparts.jpg" style="width:150px; height:250px;"></div>
+      <div class="back3">
+        <div class="details3">
+          <h2>Nursultan Zhumabaev</br><span>Senior Designer</span></h2>
+          <div class="button3"><a class='btn btn-primary' href="https://www.youtube.com/watch?v=aTK3vCzjzCo" role="button">Click Me, please!</a>
+          </div>
+        </div>
+      </div>
+    </div>
